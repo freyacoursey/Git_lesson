@@ -20,4 +20,12 @@ use_github() # commit files to github
 # blah blah blah
 # blah blah blah
 
+# penguin plot
+palmerpenguins::penguins
+
+library(ggplot2)
+
+ggplot(palmerpenguins::penguins, aes(x = species, y = bill_length_mm)) +
+  geom_boxplot(fill = "blue4") +
+  labs(x = "Species", y = "Bill Length mm")
 
