@@ -38,6 +38,10 @@ ggplot(palmerpenguins::penguins, aes(x = bill_depth_mm, y = bill_length_mm)) +
   geom_point(aes(colour = palmerpenguins::penguins$species)) +
   labs(x = "Bill Depth (mm)", y = "Bill Length (mm)")
 
+# create a fork
+create_from_github("LesegoMalekana/Open-Science-Course_Study", fork = TRUE)
+
+
 
 #We managed to create a fork, yay!
 
