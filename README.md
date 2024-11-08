@@ -1,12 +1,12 @@
 
-This document is a git lesson and is totally useless to you.
+## This document is a git lesson and is totally useless to you. DON’TREADME
 
 # Git_lesson
 
 <!-- badges: start -->
 <!-- badges: end -->
 
-The goal of Git_lesson is to …
+The goal of Git_lesson is to teach me how to use Git
 
 What is special about using `README.Rmd` instead of just `README.md`?
 You can include R chunks like so:
